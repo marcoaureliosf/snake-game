@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222738;
+	font: 400 1rem 'Press Start 2P', cursive;
+}
+
+button {
+  cursor: pointer;
+}
+
+.playArea {
+	border: 5px solid black;
+	width: 800px;
+	height: 500px;
+	position: fixed;
+	top: 43.2%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#fruit {
+	display: none;
+}
+
+.monitor {
+	width: 1024px;
+	height: 100vh;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  border-radius: 2.5rem;
+}
+
+.gameOver {
+	position: fixed;
+	top: 43.2%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 35px;
+}
+
+.playButton {
+	position: fixed;
+	top: 78%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+  background: transparent;
+  border: solid white;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: 400;
+  font-size: 1.5rem;
+	letter-spacing: 5px;
+  padding: 8px;
+	text-transform: uppercase;
+
+  &:hover {
+    color: black;
+    border-color: black;
+  }
+}
+
+.scoreBox {
+	position: fixed;
+	top: 12%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: 400;
+	text-transform: uppercase;
+  width: 810px;
+}
+
+h2 {
+	font-size: 1rem;
+	padding: 4px;
+}
